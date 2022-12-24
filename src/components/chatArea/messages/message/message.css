@@ -1,0 +1,53 @@
+.chatarea .message  {
+display: flex;
+
+
+gap:1rem;
+
+padding:1rem ;
+}
+
+.chatarea .message .messageinfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color:white !important;
+}
+.chatarea .messagesender {
+    flex-direction: row-reverse;
+ align-items: flex-start;
+   
+}
+.chatarea .messagereceiver {
+flex-direction: row;
+
+}
+
+.message .messagecontent-sender  {
+    padding :1rem;
+    max-width: 70%;
+   align-items: flex-start;
+    border-radius:10px 0px 10px 10px;
+    border-bottom: 1px solid #9db99a;
+    background-color:#d1f4cc;
+}
+.message .messagecontent-receiver  {
+    padding :1rem;
+    max-width: 70%;
+   border-bottom: 1px solid #8a8c8e;
+    border-radius: 0px 10px 10px 10px;
+    background-color: white;
+}
+span{
+    word-break: break-all;
+}
+
+ .messageinfo img {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+
+

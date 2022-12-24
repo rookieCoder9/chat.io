@@ -1,0 +1,19 @@
+.chatarea {
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ background-image: url(../../../public/Chatbg.png);
+  background-repeat:repeat;
+  
+  
+
+}
+.chatarea .chatareacontainer {
+overflow-y: auto;
+padding: 2rem;
+scroll-behavior: smooth;
+margin-block-end: auto;
+
+}
+

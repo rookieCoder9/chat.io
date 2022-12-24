@@ -1,0 +1,41 @@
+.inputmsg {
+   
+    
+
+   
+}
+.inputcontainer {
+   
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+   
+    padding: 1rem ;
+    justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+ .inputmsg input {
+
+  width: 80%;
+  padding:1rem;
+  border-radius: 20px;
+   border:none;
+   background-color: #f0f2f5;
+    
+}
+
+.inputmsg input:focus, textarea:focus, select:focus{
+    outline: none !important;
+}
+
+.inputmsg .icongrp {
+  color:#54656f;
+  cursor: pointer;
+  display: flex;
+  font-size: 3rem;
+  
+  flex-direction: row;
+
+}
+

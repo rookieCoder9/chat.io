@@ -1,0 +1,30 @@
+.sidebar .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:#54656f !important;
+    padding:0rem 2em;
+    justify-content: space-between;
+  gap:0.2rem;
+    border-bottom: 1px solid #dfe0e2;
+    background-color:#f0f2f5 ;
+}
+.sidebar .profilegrp {
+    display: flex;
+    flex-direction: row;
+ 
+  
+  gap:0.5rem;
+  align-items: center;
+  font-size: 1rem;
+ 
+}
+.sidebar .profilegrp img {
+    border-radius: 50%;
+    width: 2rem;
+    
+    height: 2rem;
+}
+.sidebar .logoutIcon {
+    cursor: pointer;
+}

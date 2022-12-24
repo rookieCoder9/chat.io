@@ -1,0 +1,39 @@
+.sidebar .search {
+    background-color: #f0f2f5;
+    color:black;
+    display: flex;
+    flex: row;
+    margin:auto;
+    gap:1.2rem;
+    align-items: center;
+   min-height: 3vh;
+    padding:0.9rem  ;
+    border-radius: 10px;
+   
+}
+ .wrapsearch {
+    padding: 1rem;
+    border-bottom: 1px solid #f0f2f5;
+}
+.search .chatscontainer {
+    display: flex;
+    flex-direction: column;
+      overflow-y: auto;
+      
+    
+  }
+
+.sidebar input {
+  border:none;
+  
+  background-color: #f0f2f5;
+ 
+    width: 100%;
+}
+.sidebar input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.searchicon {
+    color:#54656f;
+    font-size: 2rem;
+}

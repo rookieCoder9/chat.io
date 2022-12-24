@@ -1,0 +1,43 @@
+.sidebar {
+    flex:1;
+    scroll-behavior: smooth;
+    background-color: white ;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #dfe0e2;
+}
+
+.sidebar .searchcontainer {
+
+
+background-color:   white ;
+
+z-index: 100;
+
+}
+.sidebar .chatscontainer {
+  display: flex;
+  flex-direction: column;
+    overflow-y: auto;
+    
+  
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #aebac1ea; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #aebac1; 
+  }

@@ -1,0 +1,26 @@
+.chatarea .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:#54656f !important;
+    padding:0rem 2rem;
+    border-bottom: 1px solid #dfe0e2;
+    justify-content: space-between;
+    
+    background-color:#f0f2f5;
+}
+.chatarea .profilegrp {
+    display: flex;
+    flex-direction: row;
+ 
+    color:#54656f !important;
+  gap:1rem;
+  align-items: center;
+  font-size: 2rem;
+  
+}
+.chatarea .profilegrp img {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}

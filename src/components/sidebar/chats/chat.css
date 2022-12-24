@@ -1,0 +1,36 @@
+.chat  {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:1rem 3rem;
+    gap:1rem;
+    border-bottom: 1px solid #f0f2f5;
+  
+    cursor: pointer;
+    
+    color:black !important;
+}
+.chat:hover {
+    background-color: #f0f2f5 ;
+}
+.chat img {
+   
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+}
+.chat .container {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.chat h1,h2,h3,h4,h5,h6 {
+    margin:0;
+
+}
+.chat .container span {
+    color:#54656f !important;
+}
+

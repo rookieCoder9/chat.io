@@ -1,0 +1,16 @@
+.landing {
+   
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f2f5 !important;
+    height: 100%;
+    width: 100%;
+}
+.landing .content {
+    margin: auto auto;
+    color:#54656f ;
+    text-align: center;
+}
+.content img {
+    width:30%;
+}
